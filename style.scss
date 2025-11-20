@@ -1,4 +1,11 @@
 @use "./partials/colors";
+@use "./partials/footer";
+@use "./partials/my-skills";
+@use "./partials/about-me";
+@use "./partials/my-projects";
+@use "./partials/profile";
+
+// background pattern from https://heropatterns.com
 
 body {
   background-color: colors.$background;
@@ -8,59 +15,10 @@ body {
   text-align: center;
 }
 
-.profile__container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2em;
   background-color: #fffffc;
   padding-bottom: 5em;
-}
-
-h1 {
-  margin: 0;
-  color: #006d77;
-}
-
-p {
-  color: #006d77;
-}
-
-.profile__photo {
-  width: 40vw;
-  max-width: 12rem;
-  aspect-ratio: 1 / 1;
-}
-.profile__photo-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4em;
-  background-color: #ffddd2;
-  display: flex;
-  justify-content: center;
-
-  div {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    i {
-      font-size: x-large;
-    }
-  }
 }

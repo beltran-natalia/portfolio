@@ -1,0 +1,13 @@
+@use "./colors";
+
+.skills__section {
+  margin-top: 4em;
+  .skills__icons {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 2.4em;
+    color: colors.$primaryText;
+    padding-top: 0.5em;
+  }
+}
