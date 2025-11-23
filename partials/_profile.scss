@@ -8,13 +8,14 @@
 
 h1 {
   margin: 0;
-  color: #001524;
+  color: colors.$primaryText;
 }
 
 .profile__photo {
   width: 40vw;
   max-width: 12rem;
   aspect-ratio: 1 / 1;
+  margin: 0 auto;
 }
 .profile__photo-img {
   width: 100%;

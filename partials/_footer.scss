@@ -12,16 +12,28 @@ footer {
 
   div {
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 4em;
     color: colors.$primaryText;
 
-    i {
-      font-size: x-large;
-      padding-bottom: 1.5em;
+    a {
+      color: colors.$primaryLight;
+      font-size: 1.5em;
+      &:visited {
+        color: colors.$primaryLight;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    div {
+      i {
+        font-size: 1.1em;
+      }
     }
   }
 }
