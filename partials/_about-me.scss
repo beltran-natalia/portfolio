@@ -1,0 +1,13 @@
+@use "./colors";
+
+.about__section {
+  margin-top: 4em;
+
+  h2 {
+    color: colors.$primaryText;
+  }
+
+  p {
+    color: colors.$primaryText;
+  }
+}

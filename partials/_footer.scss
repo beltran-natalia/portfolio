@@ -1,0 +1,39 @@
+@use "./colors";
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+  background-color: colors.$secondaryLight;
+  display: flex;
+  justify-content: center;
+
+  div {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: colors.$primaryText;
+
+    a {
+      color: colors.$primaryLight;
+      font-size: 1.5em;
+      &:visited {
+        color: colors.$primaryLight;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    div {
+      i {
+        font-size: 1.1em;
+      }
+    }
+  }
+}
