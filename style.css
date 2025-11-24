@@ -60,7 +60,24 @@ footer div a:visited {
 .project__section {
   margin-top: 4em;
 }
+.project__section h2 {
+  padding-bottom: 1em;
+  color: #012a4a;
+}
+.project__section img {
+  max-width: 100%;
+  height: auto;
+}
+.project__section p {
+  font-size: 0.9em;
+  color: #012a4a;
+}
 
+@media screen and (min-width: 700px) {
+  .project__section p {
+    font-size: 1.2em;
+  }
+}
 .profile__container {
   display: flex;
   justify-content: space-between;
