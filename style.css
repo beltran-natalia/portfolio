@@ -41,10 +41,13 @@ footer div a:visited {
   color: #012a4a;
   padding-top: 0.5em;
 }
+.skills__section i {
+  padding: 0.3em;
+}
 
 @media screen and (min-width: 700px) {
   .skills__section .skills__icons {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 .about__section {
@@ -54,9 +57,15 @@ footer div a:visited {
   color: #012a4a;
 }
 .about__section p {
+  font-size: 0.9em;
   color: #012a4a;
 }
 
+@media screen and (min-width: 700px) {
+  .about__section p {
+    font-size: 1.2em;
+  }
+}
 .project__section {
   margin-top: 4em;
 }
@@ -83,20 +92,25 @@ footer div a:visited {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-h1 {
+.profile__container .profile__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile__container .profile__name h1 {
   margin: 0;
   color: #012a4a;
 }
-
-.profile__photo {
+.profile__container .profile__name h2 {
+  color: #012a4a;
+}
+.profile__container .profile__photo {
   width: 40vw;
   max-width: 12rem;
   aspect-ratio: 1/1;
   margin: 0 auto;
 }
-
-.profile__photo-img {
+.profile__container .profile__photo .profile__photo-img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
