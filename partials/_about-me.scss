@@ -8,6 +8,15 @@
   }
 
   p {
+    font-size: 0.9em;
     color: colors.$primaryText;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .about__section {
+    p {
+      font-size: 1.2em;
+    }
   }
 }
